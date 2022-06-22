@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Elementos de interes en Bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container p-4" id="primera-sección">
+      <div class="bg-light p-5 rounded-3">
+        <div class="container-fluid py=5 ">
+          <h1 class="fw-bold display-5">Landing Pages Express</h1>
+          <p class="col-md-8 fs-4">
+            Se trata de un concurso en el que puedes ganar una landing page para
+            crear tu embudo de ventas.
+          </p>
+          <p class="col-md-8 fs-4">
+            Sera de cualquier tematica. Tienda web, cryptomonedas, nfts,
+            infoproductos, etc
+          </p>
+          <div class="container py-4">
+            <button
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#modal-ejemplo"
+              class="btn btn-warning btn-lg"
+            >
+              Importante
+            </button>
+            <div
+              class="modal fade"
+              data-bs-backdrop="static"
+              id="modal-ejemplo"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="col-md-5 fs-2">Condiciones Landing Page</h4>
+                  </div>
+                  <div class="modal-body">
+                    <ul>
+                      <li>
+                        El desarrollador no se vinculara al producto o pagina
+                      </li>
+                      <li>
+                        Solo se permitira una revision despues de realizada
+                      </li>
+                      <li>
+                        Se debe facilitar toda la informacion, contenido
+                        multimedia, ect, dentro del plazo establecido.
+                      </li>
+                      <li>
+                        El plazo de realizacion sera de 72h (Recopilacion de
+                        informacion + landing + revision)
+                      </li>
+                    </ul>
+                    <p class="col-md-8 fs-4"></p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      class="btn btn-outline-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Salir
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-form container-sm p-4" id="segundasección">
+      <form action="inscritosSorteo">
+        <div class="mb-3">
+          <label for="inputName" class="form-label">Nombre</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputName"
+            placeholder="Nombre y Apellidos"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="inputPhone" class="form-label">Telefono</label>
+
+          <input
+            type="number"
+            class="form-control"
+            id="inputPhone"
+            aria-describedby="phoneHelp"
+            placeholder="+34678910112"
+          />
+          <div id="descriptionTextarea" class="form-text">
+            Breve descripcion de la landing page que deseas
+          </div>
+          <div class="form-floating">
+            <textarea
+              class="form-control"
+              id="descriptionTextarea"
+              style="height: 100px"
+            ></textarea>
+            <label for="descriptionTextarea"></label>
+          </div>
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <label class="form-check-label" for="exampleCheck1"
+            >Acepto las condiciones del concurso</label
+          >
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+    <div class="container-card container-sm" id="tercera-sección">
+      <div class="card" style="width: 100%">
+        <img
+          src="https://www.certus.edu.pe/blog/wp-content/uploads/2021/01/que-hace-front-end.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title fs-1 p-3 text-center">Jose Eduardo Rodriguez Fernandez</h5>
+          <p class="card-text text-center">
+            Desarrollador FrontEnd con varios años en el sector de ventas en
+            infoproductos y recientemente en el mundo crypto(criptomonedas,
+            nfts, blockchain, etc.)
+          </p>
+          <div id="logos" class="d-flex justify-content-evenly" style="font-size:5rem;" target="_bank">
+            <a href="#" class=" btn btn-primary rounded-circle"><i class="bi bi-envelope"></i></a>
+            <a href="https://github.com/chelemovil87" class=" btn btn-primary rounded-circle"><i class="bi bi-github"></i></a>
+            <a href="https://twitter.com/" class=" btn btn-primary rounded-circle"><i class="bi bi-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/jos%C3%A9-eduardo-rodr%C3%ADguez-fern%C3%A1ndez-a62371207/" class=" btn btn-primary rounded-circle"><i class="bi bi-linkedin"></i></a>
+          </div>
+       </div>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"
+  ></script>
+</html>
