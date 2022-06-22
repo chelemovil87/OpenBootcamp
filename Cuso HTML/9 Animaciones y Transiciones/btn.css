@@ -1,0 +1,44 @@
+html {
+    background-color: rgb(245, 235, 222);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+.btn-modern::before {
+    content: "HOT";
+
+}
+
+.btn-modern {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    font-size: 3em;
+    border: black 4px solid;
+    background: linear-gradient(to top,red, rgb(255, 17, 0), orange, rgb(252, 248, 12));
+    border-radius: 50%;
+    padding: 0%;
+    box-shadow: 4px 4px 4px 2px rgba(63, 23, 23, 0.4);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.btn-modern:hover {
+    font-size: 4em;
+    background: linear-gradient(to top, blue, rgb(3, 113, 216), rgb(151, 194, 252), rgba(255, 255, 255, 0.726));
+    color: white;
+    border: white 4px solid;
+    box-shadow: 4px 4px 4px 2px rgba(176, 197, 243, 0.753);
+    transition: 0.4s;
+    transform: translateY(5px);
+}
+
+.btn-modern:hover::before {
+    content: "COOL";
+}
+
+
+

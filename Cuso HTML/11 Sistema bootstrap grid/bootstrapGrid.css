@@ -1,0 +1,10 @@
+
+.container div   { 
+    background-image:url("índice.jpg"); 
+    margin: 0.4rem;
+    color:white;
+    display: flex  ;
+    justify-content: center;
+    font-size: 2rem;
+}
+

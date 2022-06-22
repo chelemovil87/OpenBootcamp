@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: space-between;
+
+}
+
+.barraLateral {
+    background-color: #10561C;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media (min-width:640px) {
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        align-content: space-around;
+        gap: 1px;
+
+    }
+
+    .barraLateral {
+        background-color: #95C967;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+
+.barraLateral-element {
+    color: #EAEADE;
+    font-size: 2rem;
+}
+
+.treboles {
+    width: 100vw;
+}
