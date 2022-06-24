@@ -1,5 +1,5 @@
 $color-main: #0052ff;
-
+$color-footer: #f4f8fe;
 @mixin btn-base {
     padding: 0.25rem 1.5rem;
     border-radius: 0.25rem;
@@ -79,13 +79,13 @@ color: $color-main
   
 }
 
-.feature {
+.benefit {
     display: flex;
     flex-direction: column;
     text-align: center;
     .icon{
         color: $color-main;
-        font-size: 10rem;
+        font-size: 7.5rem;
     }
     .description{
         .title{
@@ -95,12 +95,14 @@ color: $color-main
         .text{
             color: #888;
             font-weight: 600;
+            text-align: center;
         }
     }
-    .cta{
+    .cta{        
         color: $color-main;
         font-weight: 600;
         margin-top: 3rem;
+        text-align: center;
     }
 }
 
@@ -115,7 +117,7 @@ color: $color-main
         font-size: 10rem;
     }
     .title{
-        margin-top: -2rem;
+        margin-top: -1rem;
         font-size: 1.5rem;
         font-weight: 600;
     }
