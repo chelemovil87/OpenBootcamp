@@ -1,0 +1,16 @@
+{
+  "name": "primerejercicio",
+  "version": "1.0.0",
+  "description": "Nuevo proyecto para que muestre en pantalla un scrip",
+  "main": "index.js",
+  "scripts": {
+    "textoPantalla": "index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "newproyect",
+    "newscrip"
+  ],
+  "author": "José Eduardo Rodríguez Fernández",
+  "license": "ISC"
+}
