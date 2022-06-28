@@ -24,4 +24,4 @@ while (introducirDato3 >= 1) {
     introducirDato3--;
     console.log(introducirDato3);
 }
-    
+//aun sin terminar el ultimo ejercicio    
