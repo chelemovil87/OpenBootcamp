@@ -1,3 +1,4 @@
+// CALCULAR EL FACTORIAL DE 10 CON DIFERENTES BUCLES
 
 // Factorial con bucle for
 let introducirDato = 10; 
@@ -17,11 +18,15 @@ while (introducirDato2 > 0) {
 }
 console.log(factorial2)
 
-// Factirial con bifurcacion y break
+// Factirial con bifurcacion if  y break
 let introducirDato3 = 10;
 let factorial3 = 1;
 while (introducirDato3 >= 1) {
+    factorial3 *= introducirDato3;
     introducirDato3--;
-    console.log(introducirDato3);
+    if (introducirDato3 <1) {
+        break;
+    }    
 }
-//aun sin terminar el ultimo ejercicio    
+    console.log(factorial3)
+    
