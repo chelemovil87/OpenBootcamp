@@ -26,4 +26,4 @@ let texto_largo = "Tito no es un mono cualquiera. A Tito no le gusta trepar por 
 //Al utilizar strings solo reemplaza la primera instancia
 console.log(texto_largo.replace('los', 'cinco'));
 //Al utilizar la exprecion regular /g (global), reemplaza todas las instancias
-console.log(texto_largo.replace(/los/g, 'seis'));
+console.log(texto_largo.replace(/los/g, 'ocho'));
