@@ -8,10 +8,7 @@ let altura_m = 1.86
 let peso_kg = 84.4
 //Una variable que contenga tu altura en metros redondeada hacia arriba
 let alturaSup = altura_m.toFixed(1)
-console.log(alturaSup)
 //Una variable que contenga tu peso en kilogramos redondeado hacia abajo
 let pesoSub = peso_kg.toPrecision(2)
-console.log(pesoSub)
 //Una variable que contenga si "el máximo valor que se puede obtener en Javascript + 1" es igual al máximo valor que se puede obtener en Javascript
 let maximoValor = Number.MAX_VALUE + 1 === Number.MAX_VALUE
-console.log(maximoValor)
