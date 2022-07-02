@@ -1,4 +1,4 @@
-// Ejercicio sesion 06 - Arrays
+// Ejercicio sesion 06 - Arrays.
 //Una variable que contenga la lista de la compra (mínimo 5 elementos)
 const lista_compra = ["Harina", "Huevos", "Leche", "Agua", "Pollo", "Arroz",]
 //Modifica la lista de la compra y añádele "Aceite de Girasol"
