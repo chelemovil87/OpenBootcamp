@@ -14,7 +14,7 @@ miPromesa
     .then(() => setTimeout(() => console.log("Hola soy una promesa"), 5000));
 
 //Una función generadora de índices pares automáticos
-function* generaID() {
+function* generaIdPares() {
     let id = 0;
     while (true) {
         id += 2
@@ -22,7 +22,5 @@ function* generaID() {
     }
 }
 
-const gen = generaID();
-console.log(gen.next().value)
-console.log(gen.next().value)
+const gen = generaIdPares();
 console.log(gen.next().value)
