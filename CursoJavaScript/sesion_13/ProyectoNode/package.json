@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "eslint": "^8.19.0"
+  },
+  "name": "proyectonode",
+  "version": "1.0.0",
+  "main": "ejercicios_sesion_04.js",
+  
+  "scripts": {
+    "lint": "eslint .",
+    "lint.fix": "eslint --fix ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
