@@ -15,3 +15,6 @@ function initMap() {
 }
 
 window.initMap = initMap;
+
+
+console.log(type(100))
