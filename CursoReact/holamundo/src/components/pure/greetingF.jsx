@@ -9,7 +9,7 @@ const GreetingF = (props) => {
    
     const birthday = () => {
         //actualizar el state
-        setage(age + 1)
+        setage(age + 1);
     }
 
     return (
