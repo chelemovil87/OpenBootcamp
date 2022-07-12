@@ -19,7 +19,7 @@ const GreetingF = (props) => {
                     Hola {props.name } desde componente funcional!
                 </h1>
                 {/* <h2>
-                    Tu edad es de : {this.state.age }
+                    Tu edad es de: {this.state.age }
                 </h2>
                 <div> 
                     <button onClick={this.birthday}>
