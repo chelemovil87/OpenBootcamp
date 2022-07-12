@@ -13,6 +13,4 @@ export class Task {
         this.completed = completed;
         this.level = level;
     }
-
-
 }
