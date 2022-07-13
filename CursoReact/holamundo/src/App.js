@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 // import GreetingF from './components/pure/greetingF';
-// import TaskListComponent from './components/container/task_list';
+import TaskListComponent from './components/container/task_list';
 import ComponenteA from "./components/componenteA";
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
         {/* Componente de ejemplo funcional */}
         {/* <GreetingF name="Jose Eduardo"></GreetingF> */}
         {/* Componente de llstado de tareas */}
-        {/* // <TaskListComponent></TaskListComponent> */}
+        <TaskListComponent></TaskListComponent>
       </header>
     </div>
   );
